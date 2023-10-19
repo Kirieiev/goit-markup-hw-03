@@ -101,10 +101,8 @@ button {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -141,6 +139,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -151,6 +151,9 @@ button {
 .address-list {
   display: flex;
   gap: 40px;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-container {
